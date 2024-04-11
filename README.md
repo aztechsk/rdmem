@@ -3,7 +3,7 @@
 
 **rdmem** is a Linux kernel module enabling remapping and reading of the hardware address space of the processor into kernel virtual memory. Memory can be read through the /dev/rdmem interface in userspace.
 
-**rdpci/lkm/rdpci.c** - kernel module.
+**rdpci/lkm/rdpci.c** - kernel module.   
 **rdpci/rdpci/rdpci.c** - userspace application for reading data from /dev/rdmem device file.
 
 Example reads SAM9N12's *General Purpose Backup Register* peripheral (hw address 0xFFFFFE60):
